@@ -208,8 +208,3 @@ This project is licensed under the MIT License.
 
 * **Dataset:** (https://github.com/t-davidson/hate-speech-and-offensive-language)
 * **Model:** Hugging Face Transformers.
-
-```
-
-You can copy this entire content and paste it directly into your GitHub README file. Let me know if you need further modifications!
-```
