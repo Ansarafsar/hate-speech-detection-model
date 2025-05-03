@@ -190,12 +190,9 @@ Screenshots of outputs (e.g., metrics, predictions) are in the `/screenshots` fo
 * Increase weights (e.g., `[4.0, 3.0, 0.1]`) to further suppress “neutral”.
 * Clean dataset to reduce label noise in “offensive” and “neutral” examples.
 * Use BERT or focal loss for better imbalance handling.
+* We can use already pretrained models from individual contributors in platforms like Hugging Face, where we get pretrained models.
+* Can be intergrated through a Streamlit Web App using Ngrok tunnel directly from the Colab notebook, that introduces a LIVE Speech Checking model using dynamic I/O.
 
-### Troubleshooting:
-
-* **FileNotFoundError:** Verify `/content/labeled_data.csv` exists.
-* **CUDA Out of Memory:** Reduce `per_device_train_batch_size` to 8.
-* **Incorrect Predictions:** Check probabilities and adjust weights or oversampling.
 
 ## License
 
