@@ -1,6 +1,3 @@
-# hate-speech-detection-model
-
-
 # Hate Speech Detection with DistilBERT
 
 This project implements a hate speech detection model using DistilBERT to classify tweets as "hate," "offensive," or "neutral" based on the Hate Speech and Offensive Language Dataset. The model is trained in Google Colab with oversampling and class weights to handle dataset imbalance, achieving ~89.89% accuracy.
